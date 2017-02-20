@@ -13,7 +13,8 @@ console.log(itemInputs);
     itemInputs.forEach(function(list){
       $("#list").append("<li>"+list+"</li>")
     });
-
+    $("#form").toggle();
+    $(".answer").toggle();
 
 });
 
